@@ -1,4 +1,8 @@
 {
+  "Metadata": {
+    "title": "next-intl test",
+    "description": "next-intl test description"
+  },
   "Home": {
     "mainTitle": "Hello World"
   }

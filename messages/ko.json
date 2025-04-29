@@ -1,4 +1,8 @@
 {
+  "Metadata": {
+    "title": "next-intl 테스트",
+    "description": "next-intl 테스트 설명"
+  },
   "Home": {
     "mainTitle": "안녕하세요"
   }
