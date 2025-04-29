@@ -1,0 +1,16 @@
+pre-commit:
+  parallel: true
+  jobs:
+    - name: 'type-check'
+      run: 'pnpm run type-check'
+      fail_text: 'Type check failed'
+
+    - name: 'lint-staged'
+      glob: '*.{js,ts,jsx,tsx}'
+      run: 'pnpm run lint-staged'
+      fail_text: 'Lint failed'
+
+    - name: 'prettier'
+      glob: '*.{js,ts,jsx,tsx}'
+      run: 'pnpm pretty-quick --staged --ignore-path .gitignore'
+      fail_text: 'Prettier failed'
