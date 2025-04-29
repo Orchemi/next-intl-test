@@ -5,5 +5,9 @@
   },
   "Home": {
     "mainTitle": "안녕하세요"
+  },
+  "DynamicValue": {
+    "title": "안녕하세요, {name}님!",
+    "followers": "당신은 {count, plural, =0 {팔로워가 없습니다} =1 {한 명의 팔로워가 있습니다} other {#명의 팔로워가 있습니다}}"
   }
 }
